@@ -1,0 +1,33 @@
+body{
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.input-area{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    padding: 10px, 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+button{
+    border: none;
+    background-color: #3caf50;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+    font-weight: ;
+}
