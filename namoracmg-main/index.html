@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>namora cmg😁</title>
+</head>
+
+<body>
+    <div class="container">
+        <p>Aceita ser o amor da minha vida?
+        <div><img src="img/rosto-namoro.png" alt=""></div>
+        </p>
+        <div class="butao-container">
+            <button>
+                <a href="indexII.html">Sim</a>
+            </button>
+            <button id="nao">
+                Não
+            </button>
+        </div>
+        &copy; santosdeev
+    </div>
+    <script>
+        let botao = document.getElementById('nao')
+        let altura = window.innerHeight - 50
+        let largura = window.innerWidth - 50
+
+        botao.addEventListener('mouseover', function () {
+            botao.style.position = 'absolute'
+            botao.style.top = Math.random() * altura + 'px'
+            botao.style.left = Math.random() * largura + 'px'
+        })
+    </script>
+    
+</body>
+
+</html>
